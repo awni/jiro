@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Log probabilities."
+date: 2017-01-07
+categories: [practice]
+tags: [numerical]
+difficulty: 0
+---
+
+### Problem ###
+
+Sometimes we need to sum two probabilities that are in log-space. If we let
+$$a$$ and $$b$$ be the two log probabilities then the straight-forward method
+to compute the sum of the probabilities in log-space, $$p$$, would be 
+
+\\[ p = \log (e^a + e^b). \\]
+
+This can result in numerical instability (underflow) when $$a$$ or $$b$$ are
+large and negative.
+
+Show that another way to compute $$p$$ is given by
+
+\\[ p = \max\\{a, b\\} + \log (1 + e^{-\|a - b\|}). \\]
+
+The function $$\log(1 + x)$$ can be computed efficiently and precisely in 
+C++ with [log1p].
+
+### Solution ###
+
+[log1p]: http://en.cppreference.com/w/cpp/numeric/math/log1p
