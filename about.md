@@ -4,12 +4,17 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+This blog is intended to help anyone master machine learning through consistent
+practice. Every day a new practice problem will be posted. The following day
+the corresponding solution will be appended to the post. 
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jekyll" %} /
-[minima](https://github.com/jekyll/minima)
+A set of tags is associated with each problem. For example problems related to
+understanding neural networks will be tagged with `neural networks`.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+A difficulty rating will also be associated with each problem on a scale of 0
+to 5 with 5 being the most difficult. A difficulty rating of 0 is intened to
+take a few minutes to solve while a difficulty rating of 5 may take an hour or
+require a highly non-obvious insight.
+
+Problem contributions, corrections and comments are welcome. Please email the
+address below to contribute.

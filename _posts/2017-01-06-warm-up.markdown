@@ -1,0 +1,25 @@
+---
+layout: post
+title:  "A simple warm up problem."
+date:   2017-01-06 14:33:29 -0800
+categories: [neural networks]
+tags: [neural networks]
+difficulty: 0
+---
+
+### Problem ###
+
+The logistic sigmoid function is one of the more commonly used activation
+functions for neural networks. The function is given by
+
+\begin{align}
+\sigma(x) = \frac{1}{1+ e^{-x}}
+\end{align}
+
+One of the nice properties of this funciton is that its derivative can be
+written in terms of the function value itself.
+
+Show that $$\frac{d}{dx} \sigma(x) = \sigma(x) (1 - \sigma(x))$$.
+
+### Solution ###
+
