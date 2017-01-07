@@ -15,7 +15,7 @@ to compute the sum of the probabilities in log-space, $$p$$, would be
 
 \\[ p = \log (e^a + e^b). \\]
 
-This can result in numerical instability (underflow) when $$a$$ or $$b$$ are
+This can result in numerical instability ([underflow]) when $$a$$ or $$b$$ are
 large and negative.
 
 Show that another way to compute $$p$$ is given by
@@ -27,4 +27,18 @@ C++ with [log1p].
 
 ### Solution ###
 
+<!---
+First we show that $$p = a + \log(1 + e^{b-a})$$. 
+\begin{align}
+\log (e^a + e^b) &= \log (e^a (1 + e^{b-a})) \\\
+&= a + \log(1 + e^{b-a}).
+\end{align}
+Symetrically we also have $$p = b + \log(1 + e^{a - b})$$. Now observe that
+$$-|b - a| = min\{a, b\} - \max\{a, b\}$$. Thus we have
+\begin{align}
+p = \max\\{a, b\\} + \log(1 + e^{-|a - b|}).
+\end{align}
+-->
+
+[underflow]: https://en.wikipedia.org/wiki/Arithmetic_underflow
 [log1p]: http://en.cppreference.com/w/cpp/numeric/math/log1p
