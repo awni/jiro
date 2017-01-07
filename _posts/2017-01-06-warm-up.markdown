@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "A simple warm up problem."
-date:   2017-01-06 14:33:29 -0800
-categories: [neural networks]
+title: "A simple warm-up."
+date: 2017-01-06 14:33:29 -0800
+categories: [practice]
 tags: [neural networks]
 difficulty: 0
 ---
