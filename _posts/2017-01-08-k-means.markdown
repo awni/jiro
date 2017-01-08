@@ -1,0 +1,49 @@
+---
+layout: post
+title: "Vectorize K-means."
+date: 2017-01-08
+categories: [practice]
+tags: [k-means]
+difficulty: 2
+---
+
+### Problem ###
+
+Let $$X \in \mathbb{R}^{d \times n}$$ be a data matrix with examples in its
+columns (e.g. there are $$n$$ examples with $$d$$ features each). Let $$C \in
+\mathbb{R}^{d \times k}$$ be a matrix of k-means centroids (cluster centers).
+
+Recall the [k-means] algorithm iteratively computes two high-level steps:
+
+1. Find the distances from every example to every centroid.
+2. Update each centroid to be the mean of the examples assigned to it. The
+   examples are assigned to the centroid which they are closest to.
+
+Write a single line **vectorized** implementation of step 1.
+
+### Solution ###
+
+<!---
+We compute the distances from the $$i$$-th example to the $$j$$-th centroid in
+the $$(i, j)$$-th element of a matrix $$D \in \mathbb{R}^{n \times k}$$. Note
+also that the below is not computing the distance exactly, but the relative
+distances (all that we need for k-means) are preserved. The exact distances
+could be computed with a third term similar to the second but with the matrix
+$$X$$. However this is unecessary work.
+
+\begin{align}
+D = X^T K + {\bf 1} {\bf 1}^T (K \odot K)
+\end{align}
+
+In the above $$\odot$$ is the Hadamard (elementwise) product and the $${\bf
+1}$$ vectors have the size necessary for the syntax of the above statement to be
+sensical (namely $$n$$ and $$d$$ respecitvly).
+
+The line could be implemented in code with something like (using `numpy` syntax) 
+
+```
+np.dot(X.T, K) + np.sum(K**2, axis=1, keepdims=True)
+```
+-->
+
+[k-means]: https://en.wikipedia.org/wiki/K-means_clustering

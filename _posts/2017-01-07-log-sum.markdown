@@ -27,7 +27,6 @@ C++ with [log1p].
 
 ### Solution ###
 
-<!---
 First we show that $$p = a + \log(1 + e^{b-a})$$. 
 \begin{align}
 \log (e^a + e^b) &= \log (e^a (1 + e^{b-a})) \\\
@@ -38,7 +37,6 @@ $$-|b - a| = min\{a, b\} - \max\{a, b\}$$. Thus we have
 \begin{align}
 p = \max\\{a, b\\} + \log(1 + e^{-|a - b|}).
 \end{align}
--->
 
 [underflow]: https://en.wikipedia.org/wiki/Arithmetic_underflow
 [log1p]: http://en.cppreference.com/w/cpp/numeric/math/log1p
