@@ -14,4 +14,16 @@
   {% if jekyll.environment == 'production' and site.google_analytics %}
   {% include google-analytics.html %}
   {% endif %}
+  <script type="text/javascript">
+    function toggleDiv() {
+      var toggle = document.getElementById('answer-toggle');
+      if (toggle.text == 'show') {
+        toggle.text = 'hide';
+        document.getElementById('answer-block').style.display = "block";
+      } else {
+        toggle.text = 'show';
+        document.getElementById('answer-block').style.display = "none";
+      }
+    }
+  </script>
 </head>

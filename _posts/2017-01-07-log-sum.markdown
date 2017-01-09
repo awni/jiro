@@ -26,7 +26,9 @@ The function $$\log(1 + x)$$ can be computed efficiently and precisely in
 C++ with [log1p].
 
 ### Solution ###
+<a id='answer-toggle' href="#" onclick="toggleDiv()">show</a>
 
+<div id="answer-block"  style="display:none;">
 First we show that $$p = a + \log(1 + e^{b-a})$$. 
 \begin{align}
 \log (e^a + e^b) &= \log (e^a (1 + e^{b-a})) \\\
@@ -37,6 +39,7 @@ $$-|b - a| = min\{a, b\} - \max\{a, b\}$$. Thus we have
 \begin{align}
 p = \max\\{a, b\\} + \log(1 + e^{-|a - b|}).
 \end{align}
+</div>
 
 [underflow]: https://en.wikipedia.org/wiki/Arithmetic_underflow
 [log1p]: http://en.cppreference.com/w/cpp/numeric/math/log1p

@@ -22,7 +22,9 @@ written in terms of the function value itself.
 Show that $$\frac{d}{dx} \sigma(x) = \sigma(x) (1 - \sigma(x))$$.
 
 ### Solution ###
+<a id='answer-toggle' href="#" onclick="toggleDiv()">show</a>
 
+<div id="answer-block"  style="display:none;">
 The derivative of $$\sigma(x)$$ can be written as 
 
 \begin{align}
@@ -32,3 +34,4 @@ The derivative of $$\sigma(x)$$ can be written as
 &= \frac{1}{1+e^{-x}} \left(\frac{1+e^{-x}}{1+e^{-x}} - \frac{1}{1+e^{-x}}  \right)\\\
 &= \sigma(x) (1 - \sigma(x))
 \end{align}
+</div>

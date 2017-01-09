@@ -13,7 +13,9 @@ Prove for a nonsingular (e.g. square and invertible) matrix that
 $$(A^T)^{-1} = (A^{-1})^T$$.
 
 ### Solution ###
+<a id='answer-toggle' href="#" onclick="toggleDiv()">show</a>
 
+<div id="answer-block"  style="display:none;">
 <!---
 We have
 \begin{align}
@@ -27,4 +29,4 @@ Multiplying both sides by $$(A^T)^{-1}$$ gives
 \end{align}
 
 -->
-
+</div>
