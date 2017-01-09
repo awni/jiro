@@ -1,0 +1,30 @@
+---
+layout: post
+title: "Matrix transpose and inversion."
+date: 2017-01-09
+categories: [practice]
+tags: [linear algebra]
+difficulty: 0
+---
+
+### Problem ###
+
+Prove for a nonsingular (e.g. square and invertible) matrix that
+$$(A^T)^{-1} = (A^{-1})^T$$.
+
+### Solution ###
+
+<!---
+We have
+\begin{align}
+I = (AA^{-1})^T = (A^{-1})^T A^T.
+\end{align}
+
+Multiplying both sides by $$(A^T)^{-1}$$ gives
+
+\begin{align}
+(A^T)^{-1} = (A^{-1})^T A^T (A^T)^{-1} = (A^{-1})^T I = (A^{-1})^T.
+\end{align}
+
+-->
+
