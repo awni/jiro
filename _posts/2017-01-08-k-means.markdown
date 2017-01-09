@@ -24,7 +24,7 @@ Write a single line **vectorized** implementation of step 1.
 ### Solution ###
 <a id='answer-toggle' href="#" onclick="toggleDiv()">show</a>
 
-<div id="answer-block"  style="display:none;">
+<span id="answer-block"  style="display:none;">
 We compute the distances from the $$i$$-th example to the $$j$$-th centroid in
 the $$(i, j)$$-th element of a matrix $$D \in \mathbb{R}^{n \times k}$$. Note
 also that the below is not computing the distance exactly, but the relative
@@ -45,6 +45,6 @@ The line could be implemented in code with something like (using `numpy` syntax)
 ```
 np.dot(X.T, K) + np.sum(K**2, axis=1, keepdims=True)
 ```
-</div>
+</span>
 
 [k-means]: https://en.wikipedia.org/wiki/K-means_clustering
