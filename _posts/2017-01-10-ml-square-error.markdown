@@ -9,13 +9,14 @@ difficulty: 2
 
 ### Problem ###
 
-One of the most commonly used loss functions in machine learning is the squared
-error. The squared error loss is given by
-
+One of the most commonly used algorithms in machine learning is linear
+regression.  The loss function used in linear regression is the squared error
+given by
 \begin{align}
 \mathcal{L}(X,y) = \frac{1}{2} ||X^T \theta - y||^2 = \frac{1}{2} \sum\_{i=1}^n (\theta^T x\_i - y\_i)^2.
 \end{align}
-where $$n$$ is the number of examples, $$x_i$$ are the columns of the matrix $$X$$ and $$y_i$$ are the elements of the vector $$y$$.
+where $$n$$ is the number of examples, $$x_i$$ are the columns of the matrix
+$$X$$ and $$y_i$$ are the elements of the vector $$y$$.
 
 Assume the targets are generated via a linear transformation of the inputs and
 some zero-mean Gaussian noise. In other words
