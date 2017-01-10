@@ -16,7 +16,6 @@ $$(A^T)^{-1} = (A^{-1})^T$$.
 <a id='answer-toggle' href="#" onclick="toggleDiv()">show</a>
 
 <div id="answer-block"  style="display:none;" markdown="1">
-<!---
 We have
 \begin{align}
 I = (AA^{-1})^T = (A^{-1})^T A^T.
@@ -27,6 +26,4 @@ Multiplying both sides by $$(A^T)^{-1}$$ gives
 \begin{align}
 (A^T)^{-1} = (A^{-1})^T A^T (A^T)^{-1} = (A^{-1})^T I = (A^{-1})^T.
 \end{align}
-
--->
 </div>
