@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Tanh."
+date: 2017-01-12
+categories: [practice]
+tags: [neural networks]
+difficulty: 0
+---
+
+### Problem ###
+
+The [hyperbolic tangent] is another commonly used activation function in neural
+networks. The function is given by
+\begin{align}
+\textrm{tanh}(x) = \frac{e^{x}-e^{-x}}{e^x + e^{-x}}
+\end{align} 
+Show that the $$\textrm{tanh}$$ function is related to the sigmoid function by
+\begin{align}
+\textrm{tanh}(x) = 2\sigma(2x) - 1.
+\end{align}
+
+### Solution ###
+<a id='answer-toggle' href="#" onclick="toggleDiv()">show</a>
+
+<div id="answer-block"  style="display:none;" markdown="1">
+We have
+\begin{align}
+2 \sigma(2x) - 1 &= 2 \frac{1}{1+e^{-2x}} - 1 \\\ 
+&= \frac{2}{1+e^{-2x}} - \frac{1+e^{-2x}}{1+e^{-2x}} \\\
+&= \frac{1-e^{-2x}}{1+e^{-2x}} \frac{e^x}{e^x} \\\
+&= \frac{e^x - e^{-x}}{e^x + e^{-x}} = \textrm{tanh}(x).
+\end{align}
+</div>
+
+[hyperbolic tangent]: https://en.wikipedia.org/wiki/Hyperbolic_function#Standard_analytic_expressions

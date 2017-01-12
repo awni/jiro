@@ -26,7 +26,6 @@ Show that the gradient with respect to the parameters $$\theta$$ is given by
 <a id='answer-toggle' href="#" onclick="toggleDiv()">show</a>
 
 <div id="answer-block"  style="display:none;" markdown="1">
-<!---
 First let $$z = \theta^T x$$ and take the derivative
 $$\frac{d}{dz}\mathcal{L}(\theta)$$. This gives
 
@@ -44,7 +43,6 @@ the chain rule
 \nabla\_\theta \mathcal{L}(\theta) &= \frac{d}{dz}  \mathcal{L}(\theta) \nabla\_\theta (\theta^Tx) \\\
 &= (y - \sigma(z)) x
 \end{align}
--->
 </div>
 
 [problem]: {% post_url 2017-01-06-warm-up %} 
