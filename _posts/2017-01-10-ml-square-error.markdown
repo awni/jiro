@@ -32,7 +32,6 @@ to minimizing the squared error above.
 <a id='answer-toggle' href="#" onclick="toggleDiv()">show</a>
 
 <div id="answer-block"  style="display:none;" markdown="1">
-<!---
 First note that $$\epsilon_i = y_i - \theta^T x_i$$. This says that the
 difference between the ground truth $$y_i$$ and the prediction $$\theta^T x_i$$
 follows a zero-mean Gaussian distribution. Alternatively $$y_i \sim
@@ -63,7 +62,6 @@ minimizing
 \frac{1}{2} \sum\_{i=1}^n (y\_i - \theta^T x\_i)^2
 \end{align}
 which is precisely the squared error objective function.
--->
 </div>
 
 [likelihood]: https://en.wikipedia.org/wiki/Likelihood_function
