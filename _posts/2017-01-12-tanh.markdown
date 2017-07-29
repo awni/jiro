@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tanh."
+title: "Tanh"
 date: 2017-01-12
 categories: [practice]
 tags: [neural networks]

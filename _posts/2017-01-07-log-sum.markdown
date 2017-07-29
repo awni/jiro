@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Log probabilities."
+title: "Log probabilities"
 date: 2017-01-07
 categories: [practice]
 tags: [numerical]

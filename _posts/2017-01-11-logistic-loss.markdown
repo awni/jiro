@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Logistic regression."
+title: "Logistic regression"
 date: 2017-01-11
 categories: [practice]
 tags: [loss functions]

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Squared error."
+title: "Squared error"
 date: 2017-01-10
 categories: [practice]
 tags: [loss functions]

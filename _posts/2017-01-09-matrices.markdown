@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Matrix transpose and inversion."
+title: "Matrix transpose and inversion"
 date: 2017-01-09
 categories: [practice]
 tags: [linear algebra]
