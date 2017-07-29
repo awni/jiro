@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-permalink: /about/
+permalink: about/
 ---
 
 This blog is intended to help anyone master machine learning through consistent
