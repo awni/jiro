@@ -52,3 +52,8 @@ step is using the fact that $$p(y)$$ is uniform. The second step is using the
 inequality `(1)` from above.
 </div>
 
+<span class="post-credit">
+This fact was pointed out to me in Section 2.2.3 of [An Introduction to
+Conditional Random
+Fields](http://homepages.inf.ed.ac.uk/csutton/publications/crftut-fnt.pdf).
+</span>

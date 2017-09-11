@@ -15,6 +15,10 @@
   color: #828282;
 }
 
+.post-credit:before {
+    content: "Credit: "
+}
+
 .post-meta {
   font-size: 14px;
   color: #828282;
@@ -277,7 +281,8 @@ nav {
 //
 
 .posts > .post {
-  padding-bottom: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
   border-bottom: 1px solid $lightGray;
 }
 
