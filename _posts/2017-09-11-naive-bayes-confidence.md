@@ -23,7 +23,7 @@ more confident in its predicted output class for an arbitrary example.
 ### Solution ###
 <a id='answer-toggle' href="#" onclick="toggleDiv()">show</a>
 
-<div id="answer-block"  markdown="1"> <!--style="display:none;"-->
+<div id="answer-block" style="display:none;" markdown="1">
 
 Let $$j$$ be the index of the class label that the Naive Bayes model predicts
 for a given example. In this case
