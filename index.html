@@ -7,10 +7,11 @@ layout: default
     <article class="post">
 
       <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      <div class="date">
-        Posted on {{ post.date | date: "%B %e, %Y" }}
+      <div class="post-meta">
+        {{ post.date | date: "%b %-d, %Y" }} • {{ post.tags }} • {{ post.difficulty }}
       </div>
 
     </article>
   {% endfor %}
+
 </div>

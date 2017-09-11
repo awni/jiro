@@ -48,5 +48,6 @@ which proves the claim.
 
 </div>
 
-<sub>*Credit: This is exercise 2.9 in [Elements of Statistical
-Learning](http://web.stanford.edu/~hastie/ElemStatLearn/).*</sub>
+<div class="post-credit" markdown="1">
+Credit: This is exercise 2.9 in [Elements of Statistical Learning](http://web.stanford.edu/~hastie/ElemStatLearn/).
+</div>
