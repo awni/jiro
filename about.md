@@ -4,8 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This blog is intended to help anyone master machine learning through consistent
-*practice*.
+This website is intended to help anyone master the math of machine learning
+through consistent *practice*.
 
 A set of tags is associated with each problem. For example problems related to
 understanding neural networks will be tagged with `neural networks`.
