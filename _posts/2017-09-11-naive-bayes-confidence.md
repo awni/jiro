@@ -17,8 +17,8 @@ distributions defining a Naive Bayes model. There are $$m$$ features and $$y$$
 can take on $$n$$ possible classes. Assume the the prior over labels $$p(y)$$
 is uniform.
 
-In this case, show that if every feature is repeated once, the models becomes
-more confident in its predicted output class for an arbitrary example.
+Show that if every feature is repeated exactly once, the model becomes more
+confident in its predicted output class for an arbitrary example.
 
 ### Solution ###
 <a id='answer-toggle' href="#" onclick="toggleDiv()">show</a>
