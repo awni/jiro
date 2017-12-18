@@ -3,6 +3,7 @@ avatar: https://s.gravatar.com/avatar/952ab78c5d7894a988d7cd403bbf9cf4?s=80
 description: Practice problems in Machine Learning.
 baseurl: "/jiro"
 url: ""
+google_analytics: UA-104740087-2
 footer-links:
   twitter: awnihannun
   github: awni 
