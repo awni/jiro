@@ -42,7 +42,7 @@ sensical (namely $$n$$ and $$d$$ respecitvly).
 
 The line could be implemented in code with something like (using `numpy` syntax) 
 
-```
+```python
 np.dot(X.T, K) + np.sum(K**2, axis=1, keepdims=True)
 ```
 </div>
